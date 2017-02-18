@@ -24,7 +24,7 @@ html {
   height: 100%;
 }
 // Radient provided by http://twitter.com/_ighosh
-body, .navbar {
+.navbar, .home-callout {
  
  background: #0575E6; /* fallback for old browsers */
  background: -webkit-linear-gradient(to left, #0575E6 , #021B79); /* Chrome 10-25, Safari 5.1-6 */
@@ -34,4 +34,29 @@ body, .navbar {
 
 .navbar {
  border:none;
+}
+
+.navbar-default .navbar-brand {
+ color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+ color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+ color: white;
+ opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+ color: white;
+ opacity: 0.75;
+}
+
+.home-callout {
+   color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
