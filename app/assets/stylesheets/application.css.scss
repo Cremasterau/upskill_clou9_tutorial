@@ -51,7 +51,18 @@ html {
  opacity: 0.75;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
 
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+ background-color:#021B79 ;
+}
 .home-callout {
    color: white;
     margin-top: -20px;
